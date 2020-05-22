@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+  
+  <title>Healthcare Fraud</title>
+</head>
+
+<body>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="PopulationMap.html">Population Map</a>
+          <a href="Healthcare_fraud.html">Fraud Map</a>
+        </div>
+      </div>
+      
+      <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+
+    <div class="container" id="firstblock">
+        <h1> <strong> What is Healthcare Fraud? </strong>
+        </h1>    
+            <hr>
+                <img src="Resources/Healthcare_fraud.jpg" alt="Maximum Temperature" width="300" height="200">
+                    <p>Health care fraud is a type of white-collar crime that involves the filing of dishonest health care claims in order to turn a profit. Fraudulent health care schemes come in many forms. Practitioner schemes include: individuals obtaining subsidized or fully-covered prescription pills that are actually unneeded and then selling them on the black market for a profit; billing by practitioners for care that they never rendered; filing duplicate claims for the same service rendered; altering the dates, description of services, or identities of members or providers; billing for a non-covered service as a covered service; modifying medical records; intentional incorrect reporting of diagnoses or procedures to maximize payment; use of unlicensed staff; accepting or giving kickbacks for member referrals; waiving member co-pays; and prescribing additional or unnecessary treatment. Members can commit health care fraud by providing false information when applying for programs or services, forging or selling prescription drugs, using transportation benefits for non-medical related purposes, and loaning or using another’s insurance card.</p>
+                    <p> <strong> Key Terms</strong>
+                        - NPI: National Provider Identifier
+                    </p>
+</body>
+</html>
