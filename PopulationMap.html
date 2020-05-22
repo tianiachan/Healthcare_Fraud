@@ -11,37 +11,38 @@
       
       <title>Embedded Analytics with Tableau Online</title>
     </head>
-    <body>
-        <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="index.html">Home</a>
-                  <a href="about.html">About</a>
-                  <a href="Healthcare_fraud.html">Fraud Map</a>
-                </div>
-              </div>
-              
-              <script>
-              /* When the user clicks on the button, 
-              toggle between hiding and showing the dropdown content */
-              function myFunction() {
-                document.getElementById("myDropdown").classList.toggle("show");
-              }
-              
-              // Close the dropdown if the user clicks outside of it
-              window.onclick = function(event) {
-                if (!event.target.matches('.dropbtn')) {
-                  var dropdowns = document.getElementsByClassName("dropdown-content");
-                  var i;
-                  for (i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                      openDropdown.classList.remove('show');
-                    }
-                  }
-                }
-              }
-              </script>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="PopulationMap.html">Population Map</a>
+          <a href="Healthcare_fraud.html">Fraud Map</a>
+          <a href="graphs.html">Other Visuals</a>
+        </div>
+      </div>
+      
+      <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
         <div class='tableauPlaceholder' id='viz1590091706339' style='position: relative'>
                 <noscript><a href='#'>
                         <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Un&#47;UnitedStatesPopulationMap&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript>

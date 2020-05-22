@@ -38,3 +38,14 @@
   .dropdown a:hover {background-color: #ddd;}
   
   .show {display: block;}
+  
+  img{
+      height: 200px;
+      width: 300px;
+      float: left; 
+      margin-right: 15px; 
+      margin-bottom: 15px;
+      border: solid black 1px;
+      padding: 2px;
+  }
+  
