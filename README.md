@@ -39,6 +39,6 @@ An [Interactive Website](http://www.healthcarefraud.com.us.s3-website-us-west-1.
 * [Medicare Provider Utilization and Payment Data 2016](https://www.cms.gov/openpayments/explore-the-data/dataset-downloads)
 * [Medicare Open Payment]()
 * [LEIE Provider Exclusion List](https://oig.hhs.gov/exclusions/exclusions_list.asp)
-* [Prescriber Drug Data] (https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Downloads/OpioidDrugList.zip)
+* [Prescriber Drug Data](https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Downloads/OpioidDrugList.zip)
 
 
