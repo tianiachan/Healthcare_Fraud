@@ -36,7 +36,7 @@ An [Interactive Website](http://www.healthcarefraud.com.us.s3-website-us-west-1.
 
 # Source:
 
-* [Medicare Provider Utilization and Payment Data 2016] (https://www.cms.gov/openpayments/explore-the-data/dataset-downloads)
+* [Medicare Provider Utilization and Payment Data 2016](https://www.cms.gov/openpayments/explore-the-data/dataset-downloads)
 * [Medicare Open Payment]()
 * [LEIE Provider Exclusion List]()
 * [Prescriber Drug Data] ()
