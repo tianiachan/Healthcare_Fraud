@@ -2,7 +2,7 @@
 
 Many people are concerned with who their medical provider is for various reasons such as expertise, coverage, location, logistics, quality, etc.. Who your doctor is matters in having someone diagnose and advise you on next best steps in treatment. Therefore it is important to have as much information as possible when choosing a provider. When choosing a provider, it is far too common for the process to be long and difficult to decipher. This project was designed to help make it easier to find a provider and see if they may be fraudulent or not. This is important in making sure that the provder chosen is not going to have larger bills that get passed on.
 
-<img src="http://www.healthcarefraud.com.us.s3-website-us-west-1.amazonaws.com/Healthcare_fraud.jpg">
+<img src="https://github.com/tianiachan/Healthcare_Fraud/blob/master/Images/ssHealthCareFraud.JPG">
 
 # What this is:
 An [Interactive Website](http://www.healthcarefraud.com.us.s3-website-us-west-1.amazonaws.com/) designed to showcase what doctors may be fraudulent using Machine Learning to help predict which health care providers may be fraudulent.
