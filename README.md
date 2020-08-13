@@ -23,7 +23,7 @@ An [Interactive Website](http://www.healthcarefraud.com.us.s3-website-us-west-1.
  * Bootstrap to format website and embed Tableau to our visuals
  * Numpy
  * SQLAlchemy to read from Postgres
- * ScikitLeaRN - Logistic Regression and KNeighbors for basic Machine Learning algorithms since our data is best utilized with classification algorithms
+ * ScikitLeaRN - Logistic Regression and KNNeighbors for basic Machine Learning algorithms since our data is best utilized with classification algorithms
  
 # Tools Used:
 * AWS to store our large CSV files and host our site
