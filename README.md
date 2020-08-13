@@ -5,7 +5,7 @@ Many people are concerned with who their medical provider is for various reasons
 <img src="https://github.com/tianiachan/Healthcare_Fraud/blob/master/Images/ssHealthCareFraud.JPG">
 
 # What this is:
-An [Interactive Website](http://www.healthcarefraud.com.us.s3-website-us-west-1.amazonaws.com/) designed to showcase what doctors may be fraudulent using Machine Learning to help predict which health care providers may be fraudulent.
+An [Interactive Website](http://www.healthcarefraud.com.us.s3-website-us-west-1.amazonaws.com/) that used ETL to clean our data and use Machine Learning to accurately predict the amount of fraudulent providers in the US for users searching for providers.
 
 # Languages Used:
 * Python
@@ -33,8 +33,8 @@ An [Interactive Website](http://www.healthcarefraud.com.us.s3-website-us-west-1.
 * Visual Studio Code to work on the web design portion of our project
 
 # Follow up goals:
-* flesh out the Machine learning portion to include more libraries and demonstrate more capabilities 
-* incorporate the ML portion with the website to allow a user to look up providers to determine whether fraudulent or not
+* Flesh out the Machine learning portion to include more libraries and demonstrate more capabilities 
+* Incorporate the ML portion with the website to allow a user to look up providers to determine whether fraudulent or not
 
 # Source:
 
